@@ -2546,6 +2546,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.focus\:appearance-none:focus {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 .hover\:focus\:text-center:focus:hover {
   text-align: center;
 }
