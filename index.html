@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <title>Homepage - Mendy Krauss</title>
+    <style>
+    #background-image {
+        background-image: url("./assets/images/YvgeLINx_400x400-removebg-preview.png");
+    }
+    </style>
 </head>
 
 <body class="bg-gray-700 text-gray-200">
@@ -19,18 +24,18 @@
                 <ul class="hidden lg:flex lg:flex-row lg:text-center lg:mx-auto lg:max-w-2xl lg:items-center">
                     <li class="mx-auto">
                         <div
-                            class="fixed hover:cursor-pointer hover:-translate-x-3 hover:-translate-y-3 hover:border-2 hover:rounded-md hover:py-2 hover:px-5">
-                            Home</div>
+                            class="fixed hover:cursor-pointer">
+                            <a href="/">Home</a></div>
                     </li>
                     <li class="mx-auto">
                         <div
-                            class="fixed hover:cursor-pointer hover:-translate-x-3 hover:-translate-y-3 hover:border-2 hover:rounded-md hover:py-2 hover:px-5">
-                            Home</div>
+                            class="fixed hover:cursor-pointer">
+                            <a href="/portfolio">Portfolio</a></div>
                     </li>
                     <li class="mx-auto">
                         <div
-                            class="fixed hover:cursor-pointer hover:-translate-x-3 hover:-translate-y-3 hover:border-2 hover:rounded-md hover:py-2 hover:px-5">
-                            Home</div>
+                            class="fixed hover:cursor-pointer">
+                            <a href="/contact">Contact Me</a></div>
                     </li>
                 </ul>
                 <!-- font-awesome hamburger icon -->
@@ -39,19 +44,20 @@
                         class="mx-4 my-2 lg:hidden ml-10 text-gray-200 hover:text-gray-400 cursor-pointer hover:bg-gray-700 hover:border-gray-700">
                         <i class="fas fa-bars"></i>
                     </div>
-                    <div class="transition-all ease-in duration-300">
-                    <ul class="w-screen translate-x-0 hidden text-center mx-auto" id="hb-menu">
-                        <li class="w-full py-4 bg-gray-50 text-gray-800 drop-shadow-2xl">Home</li>
-                        <li class="w-full py-4 bg-gray-50 text-gray-800 drop-shadow-2xl">Home</li>
-                        <li class="w-full py-4 bg-gray-50 text-gray-800 drop-shadow-2xl">Home</li>
-                    </ul>
+                    <div class="">
+                        <ul class="w-screen translate-x-0 hidden text-center mx-auto" id="hb-menu">
+                            <li class="w-full py-4 bg-gray-50 text-gray-800 drop-shadow-2xl"><a href="/">Home</a></li>
+                            <li class="w-full py-4 bg-gray-50 text-gray-800 drop-shadow-2xl"><a href="/portfolio">Portfolio</a></li>
+                            <li class="w-full py-4 bg-gray-50 text-gray-800 drop-shadow-2xl"><a href="/contact">Contact Me</a></li>
+                        </ul>
                     </div>
                 </div>
 
             </nav>
         </header>
-        <div class="flex">
-            <div class="flex flex-col lg:text-left ml-14 m-8 lg:m-14">
+        <div class="flex lg:mt-20 ml-4">
+
+            <div class="flex flex-col my-auto mx-auto lg:text-left">
                 <h2 class="font-bold text-4xl font-mono uppercase">
                     👋, My Name is Mendy Krauss
                 </h2>
@@ -59,6 +65,10 @@
                     I will help you get your ideas into action.
                 </p>
             </div>
+            <div class="flex flex-col my-auto mx-auto justify-center opacity-70">
+                <img class=" rounded-b-full" height="400px" width="400px" src="./assets/images/YvgeLINx_400x400-removebg-preview.png" alt="image">
+            </div>
+
         </div>
     </div>
 
